@@ -1,0 +1,7 @@
+{
+  "name": "Magisk Modules Collection Repository",
+  "base_url": "https://ravenwolf1998.github.io/MMRL-Magisk-Module-Repo",
+  "max_num": 1,
+  "enable_log": false,
+  "log_dir": ""
+}
