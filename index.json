@@ -5,5 +5,39 @@
     "url": "https://ravenwolf1998.github.io/MMRL-Magisk-Module-Repo/",
     "description": "A collection of Magisk modules from various developers."
   },
-  "modulesUrl": "modules/"
+  "modules": [
+    {
+      "id": "audio_fix",
+      "name": "Audio Fix",
+      "version": "2.3",
+      "versionCode": 23,
+      "author": "SoundDev",
+      "description": "Fixes distorted audio on Android 14.",
+      "zipUrl": "https://github.com/SoundDev/audio-fix/releases/download/v2.3/audio_fix-v2.3.zip",
+      "iconUrl": "https://raw.githubusercontent.com/SoundDev/audio-fix/main/icon.png",
+      "track": "stable"
+    },
+    {
+      "id": "pixel_launcher_mod",
+      "name": "Pixel Launcher Mod",
+      "version": "1.1",
+      "versionCode": 11,
+      "author": "PixelGuy",
+      "description": "Tweaks and removes restrictions from the Pixel Launcher.",
+      "zipUrl": "https://gitlab.com/pixelmods/launcher-mod/-/raw/main/PixelLauncherMod.zip",
+      "iconUrl": "https://gitlab.com/pixelmods/launcher-mod/-/raw/main/icon.png",
+      "track": "stable"
+    },
+    {
+      "id": "systemless_hosts",
+      "name": "Systemless Hosts",
+      "version": "1.0",
+      "versionCode": 10,
+      "author": "Magisk Team",
+      "description": "Enables ad-blocking hosts file without modifying system partition.",
+      "zipUrl": "https://github.com/topjohnwu/magisk-files/raw/master/systemless_hosts.zip",
+      "iconUrl": "https://avatars.githubusercontent.com/u/25531749",
+      "track": "stable"
+    }
+  ]
 }
