@@ -1,24 +1,43 @@
 {
-  "name": "RavenWolf Repo",
-  "author": "RavenWolf1998",
+  "repo": {
+    "name": "Magisk Modules Collection",
+    "author": "RavenWolf98",
+    "url": "https://RavenWolf1998.github.io/MMRL-Magisk-Module-Repo/",
+    "description": "A collection of Magisk modules from various developers."
+  },
   "modules": [
     {
-      "name": "My Custom Module",
-      "version": "1.0",
-      "versionCode": 1,
-      "author": "RavenWolf1998",
-      "description": "A test Magisk module hosted externally.",
-      "download_url": "https://example.com/module.zip",
+      "id": "audio_fix",
+      "name": "Audio Fix",
+      "version": "2.3",
+      "versionCode": 23,
+      "author": "SoundDev",
+      "description": "Fixes distorted audio on Android 14.",
+      "download_url": "https://github.com/SoundDev/audio-fix/releases/download/v2.3/audio_fix-v2.3.zip",
+      "icon": "https://raw.githubusercontent.com/SoundDev/audio-fix/main/icon.png",
       "track": "stable"
     },
     {
-      "name": "Another Module",
-      "version": "2.1",
-      "versionCode": 5,
-      "author": "Another Dev",
-      "description": "Another cool Magisk module.",
-      "download_url": "https://example.com/another.zip",
-      "track": "beta"
+      "id": "pixel_launcher_mod",
+      "name": "Pixel Launcher Mod",
+      "version": "1.1",
+      "versionCode": 11,
+      "author": "PixelGuy",
+      "description": "Tweaks and removes restrictions from the Pixel Launcher.",
+      "download_url": "https://gitlab.com/pixelmods/launcher-mod/-/raw/main/PixelLauncherMod.zip",
+      "icon": "https://gitlab.com/pixelmods/launcher-mod/-/raw/main/icon.png",
+      "track": "stable"
+    },
+    {
+      "id": "systemless_hosts",
+      "name": "Systemless Hosts",
+      "version": "1.0",
+      "versionCode": 10,
+      "author": "Magisk Team",
+      "description": "Enables ad-blocking hosts file without modifying system partition.",
+      "download_url": "https://github.com/topjohnwu/magisk-files/raw/master/systemless_hosts.zip",
+      "icon": "https://avatars.githubusercontent.com/u/25531749",
+      "track": "stable"
     }
   ]
 }
