@@ -1,6 +1,9 @@
 {
-  "repoUrl": "https://RavenWolf1998.github.io/MMRL-Magisk-Module-Repo/json/modules.json",
-  "name": "Magisk Modules",
-  "author": "RavenWolf98",
-  "description": "My personal Magisk modules repository for MMRL."
+  "repo": {
+    "name": "Magisk Modules Collection",
+    "author": "RavenWolf98",
+    "url": "https://ravenwolf1998.github.io/MMRL-Magisk-Module-Repo/",
+    "description": "A collection of Magisk modules from various developers."
+  },
+  "modulesUrl": "modules/"
 }
