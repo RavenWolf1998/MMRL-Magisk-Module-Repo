@@ -1,0 +1,87 @@
+{
+  "name": "Magisk Modules Collection Repository",
+  "metadata": {
+    "version": 1,
+    "timestamp": 1730755200
+  },
+  "modules": [
+    {
+      "id": "audio_fix",
+      "name": "Audio Fix",
+      "version": "2.3",
+      "versionCode": 23,
+      "author": "SoundDev",
+      "description": "Fixes distorted audio on Android 14.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1730755200,
+        "license": "N/A",
+        "homepage": "https://github.com/SoundDev/audio-fix",
+        "source": "https://github.com/SoundDev/audio-fix",
+        "support": "",
+        "donate": ""
+      },
+      "versions": [
+        {
+          "timestamp": 1730755200,
+          "version": "2.3",
+          "versionCode": 23,
+          "zipUrl": "https://github.com/SoundDev/audio-fix/releases/download/v2.3/audio_fix-v2.3.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "pixel_launcher_mod",
+      "name": "Pixel Launcher Mod",
+      "version": "1.1",
+      "versionCode": 11,
+      "author": "PixelGuy",
+      "description": "Tweaks and removes restrictions from the Pixel Launcher.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1730755200,
+        "license": "N/A",
+        "homepage": "https://gitlab.com/pixelmods/launcher-mod",
+        "source": "https://gitlab.com/pixelmods/launcher-mod",
+        "support": "",
+        "donate": ""
+      },
+      "versions": [
+        {
+          "timestamp": 1730755200,
+          "version": "1.1",
+          "versionCode": 11,
+          "zipUrl": "https://gitlab.com/pixelmods/launcher-mod/-/raw/main/PixelLauncherMod.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "systemless_hosts",
+      "name": "Systemless Hosts",
+      "version": "1.0",
+      "versionCode": 10,
+      "author": "Magisk Team",
+      "description": "Enables ad-blocking hosts file without modifying system partition.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1730755200,
+        "license": "N/A",
+        "homepage": "https://github.com/topjohnwu/magisk-files",
+        "source": "https://github.com/topjohnwu/magisk-files",
+        "support": "",
+        "donate": ""
+      },
+      "versions": [
+        {
+          "timestamp": 1730755200,
+          "version": "1.0",
+          "versionCode": 10,
+          "zipUrl": "https://github.com/topjohnwu/magisk-files/raw/master/systemless_hosts.zip",
+          "changelog": ""
+        }
+      ]
+    }
+  ]
+}
